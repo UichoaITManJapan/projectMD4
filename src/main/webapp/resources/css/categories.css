@@ -1,0 +1,108 @@
+.text{
+    width: 100%;
+}
+.text h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #F4A460;
+}
+.text .header-text {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.header-text a {
+    margin-left: -20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 8px;
+    color: #fff;
+    background-color:#2E8B57;
+    border-radius: 8px;
+    border: none;
+    transition: box-shadow 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+.header-text a:hover{
+    background-color: #40E0D0;
+    color: black;
+    box-shadow: 5px 8px rgba(0, 123, 255, 0.3); /* Ánh sáng khi hover */
+}
+.body-text label,
+.header-text form label {
+    font-size: 20px;
+    font-weight: 200;
+    color: #3498db;
+}
+.body-text select,
+.header-text form input{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+.header-text form input[type="submit"] {
+    color: #fff;
+    background-color:#2E8B57;
+    transition: box-shadow 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+ form input[type="submit"]:hover {
+    background-color: #40E0D0;
+    color: black;
+    box-shadow: 5px 5px rgba(0, 123, 255, 0.3); /* Ánh sáng khi hover */
+}
+ .body-text{
+     text-align: center;
+     margin-left: -400px;
+     margin-top: 10px;
+     margin-bottom: 30px;
+ }
+ .body-text label {
+     margin-right: 10px;
+ }
+ table {
+     margin: 0 auto;
+ }
+ table tr {
+     padding: 10px;
+     text-align: center;
+ }
+ table tr th {
+     background-color: #6ab9cc;
+     color: #fff;
+ }
+ table tr td {
+     padding: 5px 20px;
+ }
+table tr td a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: #FF6347;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+table td .blue{
+    background-color: #87CEEB;
+}
+
+.page{
+    margin: 30px 0;
+    text-align: center;
+}
+.page a {
+    margin-left: -50px;
+    font-size: 20px;
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #dddddd;
+    border-radius: 25%;
+    background-color: #2E8B57;
+}
+
+.page a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

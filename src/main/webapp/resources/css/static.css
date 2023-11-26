@@ -1,0 +1,28 @@
+.text h2 {
+    text-align: center;
+    color: #CD853F;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.text h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #A0522D;
+}
+.text h4, table {
+    margin-left: 50px;
+}
+.text table{
+    margin-bottom: 30px
+}
+.text table tr td{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+.text table tr .cnt {
+    text-align: center;
+
+}

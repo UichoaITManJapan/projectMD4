@@ -1,0 +1,13 @@
+.sort-acc label {
+    font-size: 20px;
+    font-weight: 200;
+    color: #3498db;
+}
+.sort-acc select {
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+}
+.header-text {
+    margin-bottom: 30px;
+}
